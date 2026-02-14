@@ -297,11 +297,6 @@ a:hover {
     text-decoration: underline;
 }
 
-a.active {
-    color: black;
-    font-weight: 600;
-}
-
 .video-thumbnail {
     max-width: 800px;
     margin-bottom: 50px;
