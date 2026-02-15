@@ -135,7 +135,7 @@ body.dark-mode {
 
 .text-container {
     margin-top: 80px;
-    margin-left: 220px;
+    margin-left: 0;
     max-width: 800px;
     
     text-align: left;
@@ -254,7 +254,7 @@ body.dark-mode {
 
 
 /* 사이드바 (데스크탑) */
-.sidebar {
+.sidebar { display: none; }
     position: fixed;
     top: 80px;
     width: 220px;
