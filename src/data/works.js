@@ -1,0 +1,156 @@
+const works =[
+    {
+        id: 1,
+        title: "INVISIBLE DEATH PROJECT",
+        material: "waste plastic",
+        year: "2025",
+        thumbnail: "project1.jpg",
+        link: "project1.html",
+        show: true,
+        showOnMain: false,
+        orderOnMain: 0
+    },
+    {
+        id: 2,
+        title: "여백이 채우는 자리",
+        material: "egg carton, natural glue",
+        year: "2023",
+        thumbnail: "project2.jpg",
+        link: "project2.html",
+        show: true,
+        showOnMain: false,
+        orderOnMain: 0
+    },
+    {
+        id: 3,
+        title: "IMAGINARY STOOL",
+        material: "cardboard, newspaper, glue",
+        year: "2023",
+        thumbnail: "project3.jpg",
+        link: "project3.html",
+        show: true,
+        showOnMain: false,
+        orderOnMain: 0
+    },
+    {
+        id: 4,
+        title: "GEVAUDAN BEAST",
+        material: "drawing onto paper pulps with a soldering iron",
+        year: "2024",
+        thumbnail: "project4.jpg",
+        link: "project4.html",
+        show: true,
+        showOnMain: false,
+        orderOnMain: 0
+    },
+    {
+        id: 5,
+        title: "NATURE TO NATURE",
+        material: "egg carton, ottchil(Korean lacquer)",
+        year: "2024",
+        thumbnail: "project5.jpg",
+        link: "project5.html",
+        show: true,
+        showOnMain: false,
+        orderOnMain: 0
+    },
+    {
+        id: 6,
+        title: "PAPER LAMP Ⅱ",
+        material: "metal wire, newspaper, shellac",
+        year: "2024",
+        thumbnail: "project6.jpg",
+        link: "project6.html",
+        show: true,
+        showOnMain: false,
+        orderOnMain: 0
+    },
+    {
+        id: 7,
+        title: "PAPER LAMP",
+        material: "cardboard, newspaper",
+        year: "2024",
+        thumbnail: "project7.jpg",
+        link: "project7.html",
+        show: true,
+        showOnMain: false,
+        orderOnMain: 0
+    },
+    {
+        id: 8,
+        title: "PAPER LAMP III",
+        material: "metal wire, newspaper, Ottchil(Korean lacquer)",
+        year: "2024",
+        thumbnail: "project8.jpg",
+        link: "project8.html",
+        show: true,
+        showOnMain: false,
+        orderOnMain: 0
+    },
+    {
+        id: 9,
+        title: "TREASURE SERIES",
+        material: "egg carton, natural glue",
+        year: "2024",
+        thumbnail: "project9.jpg",
+        link: "project9.html",
+        show: true,
+        showOnMain: false,
+        orderOnMain: 0
+    },
+    {
+        id: 10,
+        title: "Work Title",
+        material: "Material",
+        year: "Year",
+        thumbnail: "testImage.jpg",
+        link: "project10.html",
+        show: false,
+        showOnMain: false,
+        orderOnMain: 0
+    },
+    {
+        id: 11,
+        title: "SABANGTAKJA IN PAPER",
+        material: "Egg carton, natural glue, linen, ottchil(Korean lacquer)",
+        year: "2025",
+        thumbnail: "project11_444.jpg",
+        link: "project11.html",
+        show: true,
+        showOnMain: false,
+        orderOnMain: 5
+    },
+    {
+        id: 12,
+        title: "먹을 품은 종이 탁상 / INK-DYED PAPER TABLE",
+        material: "Newspaper dyed with ink, finished with oil & varnish",
+        year: "2025",
+        thumbnail: "project12_9.jpg",
+        link: "project12.html",
+        show: true,
+        showOnMain: true,
+        orderOnMain: 3
+    },
+    {
+        id: 13,
+        title: "HELD SHAPE",
+        material: "Egg carton, eggshell, natural glue, outer base finished with Ottchil (Korean lacquer)",
+        year: "2025",
+        thumbnail: "project13_14.jpg",
+        link: "project13.html",
+        show: true,
+        showOnMain: true,
+        orderOnMain: 2
+    },
+    {
+        id: 14,
+        title: "Merged Grain",
+        material: "Egg carton, newspaper dyed with ink, acrylic, light bulb",
+        year: "2025",
+        thumbnail: "project14.jpg",
+        link: "project14.html",
+        show: true,
+        showOnMain: true,
+        orderOnMain: 1,
+    }
+]
