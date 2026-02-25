@@ -254,7 +254,7 @@ body.dark-mode {
 
 
 /* 사이드바 (데스크탑) */
-.sidebar { display: none; 
+.sidebar {
     position: fixed;
     top: 80px;
     width: 220px;
@@ -277,11 +277,6 @@ body.dark-mode {
     color: rgb(170, 170, 170);
 }
 
-.sidebar .real,
-.sidebar .unreal {
-    padding-left: 36px;
-    font-size: 12px;
-}
 
 
 
