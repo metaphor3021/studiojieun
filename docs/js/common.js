@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
-    includeHTML('#header', '/src/views/components/header.html');
-    includeHTML('#sidebar', '/src/views/components/sidebar.html')
+    includeHTML('#header', '/docs/views/components/header.html');
+    includeHTML('#sidebar', '/docs/views/components/sidebar.html')
         .then(() => {
             setActiveLink('.sidebar a[href]');
         })
         .catch(err => console.error('사이드바 include 실패:', err));
-    includeHTML('#menu', '/src/views/components/menu.html')
+    includeHTML('#menu', '/docs/views/components/menu.html')
         .then(() => {
             initMobileMenu(); // 삽입 완료 후 이벤트 연결
             setActiveLink('.menu a[href]');
