@@ -254,7 +254,7 @@ body.dark-mode {
 
 
 /* 사이드바 (데스크탑) */
-.sidebar { display: none; }
+.sidebar { display: none; 
     position: fixed;
     top: 80px;
     width: 220px;
