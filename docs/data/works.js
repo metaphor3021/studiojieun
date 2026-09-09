@@ -36,7 +36,7 @@ const works =[
         darkHomeUI: true,
     },
         {
-        id: 7,
+        id: 1,
         show: true,
         title: "TREASURE SERIES",
         material: "egg carton, newspaper, natural glue, Korean lacquer",
@@ -51,7 +51,7 @@ const works =[
         mainThumbnail: "",
     },
     {
-        id: 1,
+        id: 2,
         show: true,
         title: "PAPER LAMP III",
         material: "metal wire, newspaper, lacquer",
@@ -66,7 +66,7 @@ const works =[
         mainThumbnail: "paperLamp3_main.jpg",
     },
     {
-        id: 2,
+        id: 3,
         show: true,
         title: "INK-DYED PAPER TABLE",
         material: "ink-dyed newspaper, oil, varnish",
@@ -81,7 +81,7 @@ const works =[
         mainThumbnail: "inkDyedPaperTable_main.jpg",
     },
         {
-        id: 6,
+        id: 4,
         show: true,
         title: "AFTER CLAY",
         material: "newspaper, hanji, bio-based composite",
@@ -97,7 +97,7 @@ const works =[
         mobileMainThumbnail: "afterClay_mobile.jpg",
     },
     {
-        id: 3,
+        id: 5,
         show: true,
         title: "SABANGTAKJA IN PAPER",
         material: "egg carton, natural glue, linen, lacquer",
@@ -112,7 +112,7 @@ const works =[
         mainThumbnail: "sabangTakja_thumb.jpg",
     },
     {
-        id: 4,
+        id: 6,
         show: true,
         title: "Merged Grain",
         material: "egg carton, ink-dyed newspaper, acrylic, LED",
@@ -127,7 +127,7 @@ const works =[
         mainThumbnail: "",
     },
         {
-        id: 8,
+        id: 7,
         show: true,
         title: "NATURE TO NATURE",
         material: "egg carton, Korean lacquer",
@@ -142,7 +142,7 @@ const works =[
         mainThumbnail: "",
     },
     {
-        id: 5,
+        id: 8,
         show: true,
         title: "HELD SHAPE",
         material: "egg carton, eggshell, natural glue, lacquer",
