@@ -992,6 +992,12 @@ a:hover {
     #menu {
         display: none;
     }
+       .image-container img {
+        width: auto;
+        max-width: 100%;
+        max-height: calc(100vh - 140px);
+        height: auto;
+    }
 }
 /* =========================
    Homepage project UI
