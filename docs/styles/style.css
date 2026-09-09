@@ -1072,15 +1072,18 @@ body.home.home-dark-ui .menu-toggle {
 /* =========================
    Project Notes toggle
    ========================= */
-.project-notes-title {
-  font-weight: 600;
-  margin-top: 28px;
-  margin-bottom: 14px;
+.project-notes {
+    margin-top: 28px;
 }
 
 .project-notes summary {
     cursor: pointer;
     list-style: none;
+
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .project-notes summary::-webkit-details-marker {
@@ -1089,10 +1092,15 @@ body.home.home-dark-ui .menu-toggle {
 
 .project-notes summary::after {
     content: " +";
+    font-weight: 400;
 }
 
 .project-notes[open] summary::after {
     content: " -";
+}
+
+.project-notes[open] summary {
+    margin-bottom: 20px;
 }
 @media (max-width: 769px) {
     .project-slide .thumbnail .slide-image-link picture img {
