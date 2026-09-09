@@ -35,6 +35,21 @@ const works =[
         hoverTextColor: "#d0d0d0",
         darkHomeUI: true,
     },
+        {
+        id: 7,
+        show: true,
+        title: "TREASURE SERIES",
+        material: "egg carton, newspaper, natural glue, Korean lacquer",
+        year: "2024",
+        link: "treasureSeries.html",
+
+        thumbnail: "treasureSeries_thumb.jpg",
+        aspectRatio: "3/4",
+
+        showOnMain: false,
+        orderOnMain: 0,
+        mainThumbnail: "",
+    },
     {
         id: 1,
         show: true,
@@ -64,6 +79,22 @@ const works =[
         showOnMain: false,
         orderOnMain: 3,
         mainThumbnail: "inkDyedPaperTable_main.jpg",
+    },
+        {
+        id: 6,
+        show: true,
+        title: "AFTER CLAY",
+        material: "newspaper, hanji, bio-based composite",
+        year: "2026",
+        link: "afterClay.html",
+
+        thumbnail: "afterClay_thumb.jpg",
+        aspectRatio: "3/4",
+
+        showOnMain: true,
+        orderOnMain: 3,
+        mainThumbnail: "afterClay_main.jpg",
+        mobileMainThumbnail: "afterClay_mobile.jpg",
     },
     {
         id: 3,
@@ -95,6 +126,21 @@ const works =[
         orderOnMain: 0,
         mainThumbnail: "",
     },
+        {
+        id: 8,
+        show: true,
+        title: "NATURE TO NATURE",
+        material: "egg carton, Korean lacquer",
+        year: "2024",
+        link: "natureToNature.html",
+
+        thumbnail: "natureToNature_thumb.jpg",
+        aspectRatio: "1/1",
+
+        showOnMain: false,
+        orderOnMain: 0,
+        mainThumbnail: "",
+    },
     {
         id: 5,
         show: true,
@@ -111,53 +157,10 @@ const works =[
         mainThumbnail: "",
     },
     
-    {
-        id: 6,
-        show: true,
-        title: "AFTER CLAY",
-        material: "newspaper, hanji, bio-based composite",
-        year: "2026",
-        link: "afterClay.html",
 
-        thumbnail: "afterClay_thumb.jpg",
-        aspectRatio: "3/4",
 
-        showOnMain: true,
-        orderOnMain: 3,
-        mainThumbnail: "afterClay_main.jpg",
-        mobileMainThumbnail: "afterClay_mobile.jpg",
-    },
-    {
-        id: 7,
-        show: true,
-        title: "TREASURE SERIES",
-        material: "egg carton, newspaper, natural glue, Korean lacquer",
-        year: "2024",
-        link: "treasureSeries.html",
+    
 
-        thumbnail: "treasureSeries_thumb.jpg",
-        aspectRatio: "3/4",
-
-        showOnMain: false,
-        orderOnMain: 0,
-        mainThumbnail: "",
-    },
-
-    {
-        id: 8,
-        show: true,
-        title: "NATURE TO NATURE",
-        material: "egg carton, Korean lacquer",
-        year: "2024",
-        link: "natureToNature.html",
-
-        thumbnail: "natureToNature_thumb.jpg",
-        aspectRatio: "1/1",
-
-        showOnMain: false,
-        orderOnMain: 0,
-        mainThumbnail: "",
-    },
 
 
     {
