@@ -1072,6 +1072,11 @@ body.home.home-dark-ui .menu-toggle {
 /* =========================
    Project Notes toggle
    ========================= */
+.project-notes-title {
+  font-weight: 600;
+  margin-top: 28px;
+  margin-bottom: 14px;
+}
 
 .project-notes summary {
     cursor: pointer;
