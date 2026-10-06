@@ -19,7 +19,7 @@ const works =[
         id: -1,
         show: true,
         title: "VISUAL SILENCE",
-        material: "newspaper, egg carton, hanji, lacquer, LED",
+        material: "newspaper, egg carton, lacquered hanji, LED",
         year: "2026",
         link: "visualSilence.html",
 
