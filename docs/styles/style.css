@@ -998,6 +998,58 @@ a:hover {
         max-height: calc(100vh - 140px);
         height: auto;
     }
+
+    /* Work pages share Paper Lamp III's viewport-limited desktop width. */
+    .work-page .content {
+        width: min(1280px, 100%, calc(150vh - 210px));
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 0;
+    }
+
+    .work-page .content > .image-container {
+        width: 100%;
+    }
+
+    .work-page .content > .image-container > img {
+        width: 100%;
+        height: auto;
+        max-height: none;
+        aspect-ratio: 3 / 2;
+        object-fit: contain;
+    }
+
+    .work-page .project-info {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    /* Standalone text blocks keep the same image-to-text gap as nested ones. */
+    .work-page .content > .image-container:has(+ .project-info) {
+        margin-bottom: 0;
+    }
+
+    .work-page .content > .project-info {
+        margin-bottom: 60px;
+    }
+
+    /* Also align legacy detail sections placed outside .content. */
+    .work-page .details-section {
+        width: min(1280px, 100%, calc(150vh - 210px));
+        margin: 60px auto 50px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .work-page .layout:has(+ .details-section) .content {
+        margin-bottom: 0;
+    }
+
+    /* Selected project images before the text match Paper Lamp III's 3:2 frame. */
+    .work-page .content > .desktop-landscape > img {
+        object-fit: cover;
+    }
 }
 /* =========================
    Homepage project UI

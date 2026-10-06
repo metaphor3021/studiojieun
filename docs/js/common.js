@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     initPageFadeOutOnly();
     initScrollFade();
+    initProjectNotesAnimation();
 
     includeHTML('#header', '/views/components/header.html')
         .then(() => {
@@ -187,6 +188,63 @@ function initScrollFade() {
             }
         }
 
+    });
+}
+
+function initProjectNotesAnimation() {
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+    document.querySelectorAll('.project-notes').forEach(notes => {
+        const summary = notes.querySelector('summary');
+        const content = notes.querySelector('.project-notes-content');
+        if (!summary || !content || typeof content.animate !== 'function') return;
+
+        let animation = null;
+        let expanded = notes.open;
+
+        function finish() {
+            const current = animation;
+            animation = null;
+            if (current) {
+                current.onfinish = null;
+                current.cancel();
+            }
+            notes.open = expanded;
+        }
+
+        summary.addEventListener('click', event => {
+            if (reducedMotion.matches) {
+                if (animation) finish();
+                return;
+            }
+
+            event.preventDefault();
+            expanded = animation ? !expanded : !notes.open;
+
+            if (animation) {
+                animation.reverse();
+                return;
+            }
+
+            // Keep the notes visible until the fade-out and downward movement finish.
+            notes.open = true;
+
+            animation = content.animate([
+                { opacity: 0, transform: 'translateY(18px)' },
+                { opacity: 1, transform: 'translateY(0)' }
+            ], {
+                duration: 650,
+                easing: 'cubic-bezier(0.4, 0, 0.2, 1)',
+                direction: expanded ? 'normal' : 'reverse'
+            });
+            animation.onfinish = finish;
+        });
+
+        // Restore native toggling when the user enables reduced motion.
+        const resetAnimation = () => {
+            if (animation) finish();
+        };
+        reducedMotion.addEventListener('change', resetAnimation);
     });
 }
 
