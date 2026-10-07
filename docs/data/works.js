@@ -35,8 +35,21 @@ const works =[
         hoverTextColor: "#d0d0d0",
         darkHomeUI: true,
     },
+    {
+        id: 0,
+        show: true,
+        title: "SECOND RECORD",
+        material: "newspaper, potassium silicate",
+        year: "2026",
+        link: "secondRecord.html",
+
+        thumbnail: "secondRecord_thumb.jpg",
+        aspectRatio: "3/4",
+
+        showOnMain: false,
+    },
         {
-        id: 1,
+        id: 2,
         show: true,
         title: "TREASURE SERIES",
         material: "egg carton, newspaper, natural glue, Korean lacquer",
@@ -51,7 +64,7 @@ const works =[
         mainThumbnail: "",
     },
     {
-        id: 2,
+        id: 1,
         show: true,
         title: "PAPER LAMP III",
         material: "metal wire, newspaper, lacquer",

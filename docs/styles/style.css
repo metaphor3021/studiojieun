@@ -1050,6 +1050,26 @@ a:hover {
     .work-page .content > .desktop-landscape > img {
         object-fit: cover;
     }
+
+    /* Show each Visual Silence introduction photo in full within a desktop viewport. */
+    .work-page .content > .image-container > img.desktop-full-photo {
+        width: min(100%, calc((100vh - 140px) * 0.72));
+        aspect-ratio: 4 / 5;
+        object-fit: contain;
+    }
+
+    /* The third table photo (3:4) occupies half of the shared 3:2 frame's width. */
+    .work-page .content > .image-container > img.desktop-table-width {
+        width: 50%;
+        aspect-ratio: auto;
+    }
+
+    /* Match the two After Clay introduction photos to the first photo's portrait frame. */
+    .work-page .content > .image-container > img.desktop-portrait {
+        width: min(100%, calc((100vh - 140px) * 2 / 3));
+        aspect-ratio: 2 / 3;
+        object-fit: cover;
+    }
 }
 /* =========================
    Homepage project UI
