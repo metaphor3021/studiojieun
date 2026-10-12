@@ -19,7 +19,7 @@ const works =[
         id: -1,
         show: true,
         title: "VISUAL SILENCE",
-        material: "newspaper, egg carton, lacquered hanji, LED",
+        material: "newspaper, egg carton, hanji, ottchil lacquer,LED",
         year: "2026",
         link: "visualSilence.html",
 
@@ -52,7 +52,7 @@ const works =[
         id: 2,
         show: true,
         title: "TREASURE SERIES",
-        material: "egg carton, newspaper, natural glue, Korean lacquer",
+        material: "egg carton, newspaper, natural glue, ottchil lacquer",
         year: "2024",
         link: "treasureSeries.html",
 
@@ -67,7 +67,7 @@ const works =[
         id: 1,
         show: true,
         title: "PAPER LAMP III",
-        material: "metal wire, newspaper, lacquer",
+        material: "metal wire, newspaper, ottchil lacquer",
         year: "2024",
         link: "paperLamp3.html",
 
@@ -113,7 +113,7 @@ const works =[
         id: 5,
         show: true,
         title: "SABANGTAKJA IN PAPER",
-        material: "egg carton, natural glue, linen, lacquer",
+        material: "egg carton, natural glue, linen, ottchil lacquer",
         year: "2025",
         link: "sabangTakja.html",
 
@@ -143,7 +143,7 @@ const works =[
         id: 7,
         show: true,
         title: "NATURE TO NATURE",
-        material: "egg carton, Korean lacquer",
+        material: "egg carton, ottchil lacquer",
         year: "2024",
         link: "natureToNature.html",
 
@@ -158,7 +158,7 @@ const works =[
         id: 8,
         show: true,
         title: "HELD SHAPE",
-        material: "egg carton, eggshell, natural glue, lacquer",
+        material: "egg carton, eggshell, natural glue, ottchil lacquer",
         year: "2025",
         link: "heldShape.html",
 
