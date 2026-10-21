@@ -39,7 +39,7 @@ const works =[
         id: 0,
         show: true,
         title: "SECOND RECORD",
-        material: "newspaper, potassium silicate",
+        material: "newspaper, mineral-based binder",
         year: "2026",
         link: "secondRecord.html",
 
