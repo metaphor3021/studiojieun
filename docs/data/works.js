@@ -3,7 +3,7 @@ const works =[
         id: -2,
         show: true,
         title: "MANUAL LIVING",
-        material: "newspaper, egg carton, mineral-based binder, reinforced concrete",
+        material: "Mineralised paper, reinforced concrete",
         year: "2026",
         link: "manualLiving.html",
 
@@ -39,7 +39,7 @@ const works =[
         id: 0,
         show: true,
         title: "SECOND RECORD",
-        material: "newspaper, mineral-based binder",
+        material: "Mineralised paper",
         year: "2026",
         link: "secondRecord.html",
 
