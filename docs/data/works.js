@@ -3,7 +3,7 @@ const works =[
         id: -2,
         show: true,
         title: "MANUAL LIVING",
-        material: "newspaper, egg carton, potassium silicate, reinforced concrete",
+        material: "newspaper, egg carton, mineral-based binder, reinforced concrete",
         year: "2026",
         link: "manualLiving.html",
 
